@@ -33,3 +33,25 @@
       ||x:预期内的失败|
     - 用例失败的详情
     - 测试活动的结果摘要
+
+```
+
+def test_web():
+    assert 1 == 1
+    return None
+
+def test_api():
+    assert 1 == 2
+
+def test__pass():
+    assert 1 == 1
+
+def test__fail():
+    assert 1 == 2
+
+@pytest.fixture()
+def f():
+    print(1 + "1")
+def test_error():
+    assert 1 == 3
+```
