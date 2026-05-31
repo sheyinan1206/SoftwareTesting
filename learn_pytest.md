@@ -35,6 +35,7 @@
     - 测试活动的结果摘要
 
 ```
+import pytest
 
 def test_web():
     assert 1 == 1
@@ -51,7 +52,24 @@ def test__fail():
 
 @pytest.fixture()
 def f():
-    print(1 + "1")
-def test_error():
+    assert 1==2
+
+def test_error(f):
     assert 1 == 3
+
+@pytest.mark.skip
+def test_skip():
+    assert 1==2
+
+@pytest.mark.xfail
+def test_xpass():
+    pass
+
+@pytest.mark.xfail
+def test_xfail():
+    assert 1==2
 ```
+
+6. 用例发现规则
+    - 遍历所有目录**（venv和.开头的除外）** venv配置项本身就有很多测试用例，.开头是隐藏文件
+    - 
