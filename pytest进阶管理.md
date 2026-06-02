@@ -22,7 +22,7 @@
 pytest.ini(优先)
 
 ### 格式
-1. pytest选择器
+- pytest选择器
 2. 内容按行分割
 
 # 标记
