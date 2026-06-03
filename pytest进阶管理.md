@@ -43,12 +43,21 @@ pytest.ini(优先)
 
 ## 内置标记
 1. skip
+
 无条件跳过
+
 2. skipif
+
 有条件跳过
+
 3. xfail
+
 预期失败
+
 4. **parametrize**
+
 参数化测试
+
 5. usefixture
+
 使用fixture
