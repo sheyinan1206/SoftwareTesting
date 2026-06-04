@@ -19,3 +19,13 @@
 2. 通过标记或者参数【请求】fixture
 
 3. 不允许直接【调用】fixture
+
+## 共享范围
+
+1. function （默认、最小、不共享）
+
+2. class
+
+3. module
+
+4. package
