@@ -14,7 +14,7 @@ https://pytest.cn/en/stable/reference/plugin_list.html
 
     --html=report.html
 
-## pytest-xdlst
+## pytest-xdist
 
 1. 用途
 
