@@ -8,12 +8,18 @@ https://pytest.cn/en/stable/reference/plugin_list.html
 
 1. 用途
 
-  生成html测试报告
+    生成html测试报告
 
 2. 参数
 
-  --html=report.html
+    --html=report.html
 
+## pytest-xdlst
 
+1. 用途
 
-3. 
+    分布式执行用例
+
+2. 参数
+
+    -n{0,1,2,3,4,.....auto}
