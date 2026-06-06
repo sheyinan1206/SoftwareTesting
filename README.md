@@ -6,3 +6,5 @@
 2. [pytest进阶管理](./pytest/02_pytest进阶管理.md)
 
 3. [pytest核心功能](./pytest/03_pytest核心功能.md)
+
+4. [pytest插件生态](./pytest/04_pytest插件生态.md)
