@@ -1,8 +1,9 @@
 # pytest基础入门
 ## 环境准备
 ## 安装pytest 
-
-    ```pip install pytest```
+```
+pip install pytest
+```
    
 ## 创建用例
     - 文件：test_开头
