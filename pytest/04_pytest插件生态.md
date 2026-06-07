@@ -63,3 +63,14 @@ result_log_separator = 1
 result_log_level_separator = warning
 result_log_level_verbose = info
 ```
+
+## allure-pytest
+
+1. 用途
+
+    生成allure结果文件
+
+2. 参数
+
+
+   
