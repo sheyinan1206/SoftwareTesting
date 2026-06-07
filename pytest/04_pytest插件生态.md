@@ -72,5 +72,8 @@ result_log_level_verbose = info
 
 2. 参数
 
+    --alluredir=temps --clean-alluredir
 
-   
+3. 注意
+
+    通过allure命令
