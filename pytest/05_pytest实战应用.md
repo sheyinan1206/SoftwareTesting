@@ -60,5 +60,16 @@ pip install pytest-selenium
     - 关闭浏览器
     - 访问被测页面
 
+4. 测试用例
+
+    - 浏览器操作
+    - 元素定位
+    - 元素操作
+
+```
+http://116.62.63.211/shop/?s=user/loginInfo.html
+```
+
+5. 
 
 # API框架封装
