@@ -54,6 +54,11 @@ pip install pytest-selenium
 --driver=chrome
 ```
 
+3. fixtures
+
+    - 启动浏览器
+    - 关闭浏览器
+    - 访问被测页面
 
 
 # API框架封装
