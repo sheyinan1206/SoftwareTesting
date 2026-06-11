@@ -68,7 +68,11 @@ pip install pytest-selenium
     - 断言
 
 ```
+# 测试网站
 http://116.62.63.211/shop/?s=user/loginInfo.html
+
+#日志，截图，其他信息
+selenium_capture_debug = always
 ```
 
 5. yaml文件
