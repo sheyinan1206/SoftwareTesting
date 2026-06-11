@@ -65,11 +65,15 @@ pip install pytest-selenium
     - 浏览器操作
     - 元素定位
     - 元素操作
+    - 断言
 
 ```
 http://116.62.63.211/shop/?s=user/loginInfo.html
 ```
 
-5. 
+5. yaml文件
+
+    - 测试数据
+    - 预期结果
 
 # API框架封装
