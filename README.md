@@ -8,3 +8,5 @@
 3. [pytest核心功能](./pytest/03_pytest核心功能.md)
 
 4. [pytest插件生态](./pytest/04_pytest插件生态.md)
+
+5. [pytest实战应用](./pytest/05_pytest实战应用.md)
