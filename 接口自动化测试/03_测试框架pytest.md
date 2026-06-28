@@ -38,3 +38,10 @@
 
 ### 断言方式
 python内置关键字：assert
+
+```
+def test_web():
+    a = 'abc'
+    b = 'bbc'
+    assert a == b
+```
