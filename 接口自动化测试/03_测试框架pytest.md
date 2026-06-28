@@ -37,4 +37,4 @@
 > python文件中，函数（方法）才是用例！！！
 
 ### 断言方式
-assert
+python内置关键字：assert
