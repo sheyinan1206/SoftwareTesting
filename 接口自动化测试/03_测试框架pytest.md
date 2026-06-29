@@ -45,3 +45,16 @@ def test_web():
     b = 'bbc'
     assert a == b
 ```
+
+## 3.pytest进阶技巧
+### 标记：mark
+
+让用例与众不同
+
+1. 自定义标记
+
+
+2. 内置标记
+
+
+### 夹具：fixture
