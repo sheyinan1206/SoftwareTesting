@@ -56,5 +56,11 @@ def test_web():
 
 2. 内置标记
 
+- skip
+- xfail
+- **parametrize**
+
+参数化测试（数据驱动测试：根据数据的数量和内容，决定用例的数量和内容）
+- usefixtures
 
 ### 夹具：fixture
