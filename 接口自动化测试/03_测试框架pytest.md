@@ -93,6 +93,8 @@ def test_login(accounts, pwd, code):
     resp = s.request(method,url,json=json)
     assert resp.status_code == int(code)
 ```
+> 如何创作高质量的数据：AI！！！！！
+
 - usefixtures
 
 ### 夹具：fixture
