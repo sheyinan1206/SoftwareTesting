@@ -99,10 +99,26 @@ def test_login(accounts, pwd, code):
 
 ### 夹具：fixture
 
+如何使用：
+
+1. 通过标记调用
+```@pytest.mark.usefixtures('f')```
+
+2. 通过参数调用
+
+
 作用：
 
 1. 实现setup/teardown机制
 2. 实现注入机制
 
-作用域
+作用域：
+
+- 在同一作用域内的用例，复用注入结果
+
+conftest：
+
+- 跨文件共享fixture
+
+    
     
