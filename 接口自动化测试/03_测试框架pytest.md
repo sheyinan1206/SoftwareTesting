@@ -114,7 +114,13 @@ def test_login(accounts, pwd, code):
 
 作用域：
 
-- 在同一作用域内的用例，复用注入结果
+在同一作用域内的用例，复用注入结果
+
+- function
+- class
+- module
+- package
+- session
 
 conftest：
 
