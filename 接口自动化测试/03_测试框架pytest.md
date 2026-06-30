@@ -98,3 +98,11 @@ def test_login(accounts, pwd, code):
 - usefixtures
 
 ### 夹具：fixture
+
+作用：
+
+1. 实现setup/teardown机制
+2. 实现注入机制
+
+作用域
+    
