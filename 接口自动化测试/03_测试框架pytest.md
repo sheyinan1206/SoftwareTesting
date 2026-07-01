@@ -152,4 +152,4 @@ def test_123(f):
     
 python接口自动化流程：
 
-创建fixture夹具→创建数据→创建用例
+创建fixture夹具→创建用例→创建数据
