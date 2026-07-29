@@ -26,3 +26,9 @@
 使用 后置处理器-json提取器 提取变量
 
 后续接口使用变量：${变量名}
+
+## 6.测试报告
+
+```shell
+jmeter -n -t D:\迅雷下载\apache-jmeter-5.6.3\proj\华测商城测试计划.jmx -l test1.jtl -e -o D:\迅雷下载\apache-jmeter-5.6.3\proj\report
+```
