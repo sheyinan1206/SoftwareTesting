@@ -1,0 +1,2 @@
+# JMeter generated Cookie file
+	TRUE		FALSE	0	Cookie	JSESSIONID=9a339da2-14a7-4a63-a3b2-630015df97cd
