@@ -8,19 +8,20 @@
 
 - 结果
 
-吞吐量（TPS/QPS） -- 系统性能指标
+  - 吞吐量（TPS/QPS） -- 系统性能指标
+  
+  - Transactions per second 每秒处理的事务数 或 Query per second 每秒处理的查询数（一个事务往往有多个请求）
+  
+  - RT -- 系统性能指标
+  
+  - Response Time，响应时间 -- 错误率、资源占用率
 
-Transactions per second 每秒处理的事务数 或 Query per second 每秒处理的查询数（一个事务往往有多个请求）
+- jmeter线程工作模式
 
-RT -- 系统性能指标
+  - 第一种：指定jmeter 一个线程执行多少次请求【固定次数/不固定次数】
+  - 第二种：jmeter压测时间
+ 
 
-Response Time，响应时间
-错误率、资源占用率
-
-jmeter线程工作模式
-
-- 第一种：指定jmeter 一个线程执行多少次请求【固定次数/不固定次数】
-- 
  # 实际问题
 
  ## RPS要贴近实际场景需求
