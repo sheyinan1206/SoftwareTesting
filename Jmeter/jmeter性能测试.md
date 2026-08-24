@@ -34,6 +34,13 @@
  - jmeter插件
    - 先下载JMeterPlugins-Manager.jar
    - 然后下载custom thread groups jar包
+   - 梯度压测（jp@gc - Stepping Thread Group）：动态变化线程数量（例如：慢慢增加线程数量）
+     - 线程总数的上限 - 大一点
+     - 每个 10s 增加 2个 线程
+    
+ - jmeter性能测试过程中监控
+     - 检查线程的运行状态
+     - 
 
  # 实际问题
 
