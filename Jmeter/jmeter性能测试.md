@@ -29,8 +29,11 @@
       - 直接用一个线程 去压测一段时间
       - 1000 ms / 单词请求（响应）的时间
 
- > 总结：实际性能测试中，很难得出精确的线程数量
- 
+   > 总结：实际性能测试中，很难得出精确的线程数量
+
+ - jmeter插件
+   - 先下载JMeterPlugins-Manager.jar
+   - 然后下载custom thread groups jar包
 
  # 实际问题
 
